@@ -1,5 +1,3 @@
-package io.ramanan.learning.practice;
-
 /**
  * https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
  * 1290. Convert Binary Number in a Linked List to Integer
@@ -21,9 +19,7 @@ public class ConvertBinaryNumberInALinkedListToInteger {
     private static class ListNode {
         int val;
         ListNode next;
-        ListNode() {}
         ListNode(int val) { this.val = val; }
-        ListNode(int val, ListNode next) { this.val = val; this.next = next; }
     }
 
     public static void main(String[] args) {
